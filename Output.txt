@@ -1,0 +1,359 @@
+
+1.	Output:
+ runfile('D:/UTD/Fall19/MachineLearning/Assignment2/Back_Propagation/NeuralNet.py', wdir='D:/UTD/Fall19/MachineLearning/Assignment2/Back_Propagation')
+
+ Neural network error using sigmoid activation function 
+ 
+
+ Learning rate = 0.05 /
+ 
+
+ After 1000 iterations, the total error is 3.0467006768642557
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[ 0.20086643 -0.46903321 -0.78861471  0.40371557]
+ [ 2.06546375  1.58000471 -0.15046035 -0.15836891]
+ [ 2.23173832 -0.76864046  1.2192684  -2.44935222]
+ [-1.00317941 -0.86758207 -0.30801437 -0.63970405]
+ [-0.32622479 -0.58222833 -1.99335825  2.65492598]
+ [-0.71146556 -2.28600984 -0.46592174  0.6009528 ]
+ [ 0.7668316   0.65785555  1.42973168 -0.12570731]]
+
+[[-3.92721424  0.97576991]
+ [ 3.17256093  0.21924052]
+ [-1.33642194  1.16045195]
+ [ 3.080186    1.3254229 ]]
+
+[[ 5.55524627]
+ [-2.89933383]]
+
+ Training done, Testing time 
+
+ The error on test set is  0.9917940006995905
+
+ Learning rate = 0.01
+
+ After 1000 iterations, the total error is 5.736666145173837
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[ 0.55378312 -0.18347422 -0.7171567   0.6861268 ]
+ [-0.51622509  0.7944288  -0.2992991  -1.03043678]
+ [-1.15321398  1.62412726  0.3485541  -0.22373396]
+ [ 0.66234957  0.35172734 -0.990274   -0.8408125 ]
+ [-0.03158291 -0.23780974  0.70604769 -0.4306494 ]
+ [-0.89111472  0.155093   -0.53289999 -0.53717869]
+ [ 0.18658819  0.71748461  0.91063229  0.3258924 ]]
+
+[[ 0.57316787 -0.15845868]
+ [-1.95920135 -0.74229486]
+ [ 0.15730094 -0.83109947]
+ [ 0.25976124  0.10765829]]
+
+[[2.03218042]
+ [0.98949114]]
+
+ Training done, Testing time 
+
+ The error on test set is  0.8887168111955206
+
+ Learning rate = 0.1
+
+ After 1000 iterations, the total error is 2.485165448604513
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[-0.97231917  1.16084416 -0.31171834 -0.88120929]
+ [-3.29203867  0.47459196 -2.00399239  1.38693912]
+ [-1.90390146 -0.01911048  4.18447153 -1.88244841]
+ [-0.86517704  0.54879578  0.35432127  0.04637428]
+ [-0.13438191  1.22373739 -0.85259623  0.69611015]
+ [-0.21407368  0.99653845 -0.16254269 -0.65505617]
+ [-2.87755196 -2.35126087 -0.17728357 -0.02685271]]
+
+[[ 0.29426535  6.36835721]
+ [ 1.86044954  2.75701254]
+ [ 0.79843528 -5.13518827]
+ [ 1.11879     3.36661001]]
+
+[[-4.50756546]
+ [ 6.88392015]]
+
+ Training done, Testing time 
+
+ The error on test set is  1.169705021782261
+
+ Learning rate = 0.5
+
+ After 1000 iterations, the total error is 2.2655976927704224
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[-1.57959018  0.36674029 -1.53542749 -2.16787808]
+ [-3.78908806 -1.67655498  3.66928612 -5.1637687 ]
+ [ 8.92925959 -2.9249005  -5.06991629 -1.94485638]
+ [ 1.8077393  -1.99093645  1.42063771  0.64027154]
+ [-2.06461179  2.5950322   1.46920417  0.05214834]
+ [-0.51826468  1.46875429 -2.45283751 -0.61275163]
+ [ 0.46424669 -1.45163006 -0.19844371 -5.81031052]]
+
+[[-4.65775413  1.68862555]
+ [ 2.02613459  3.44308479]
+ [ 6.89312741 -0.79476625]
+ [ 8.07324207  2.81994598]]
+
+[[ 8.40019164]
+ [-6.09625502]]
+
+ Training done, Testing time 
+
+ The error on test set is  1.4840314952058329
+
+ Neural network error using tanh activation function 
+ 
+
+ Learning rate = 0.05 
+ 
+
+ After 1000 iterations, the total error is 1.922838906286971
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[ 0.13071825  0.83102489 -0.81053646 -0.08508515]
+ [-0.24490838  0.28000179  1.28519512  1.74084536]
+ [-1.88062404 -1.29244601  0.27493767  2.20606874]
+ [ 0.57402798 -0.84924773 -1.78840649 -1.06832777]
+ [ 2.11058229  1.62103476 -0.39476734 -0.3833919 ]
+ [ 0.09529479 -0.03072016 -2.8912171  -0.42198055]
+ [ 0.73858544 -1.71539924  0.5549258   0.82836326]]
+
+[[-2.04980581 -1.20999004]
+ [-0.41661081 -2.17406392]
+ [ 1.14113985 -2.90257063]
+ [-0.68062056  2.39884049]]
+
+[[-0.9831412 ]
+ [-0.97764269]]
+
+ Training done, Testing time 
+
+ The error on test set is  1.4503188383268542
+
+ Learning rate = 0.01 
+
+
+ After 1000 iterations, the total error is 1.773235673360381
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[-0.50681739 -0.47383207  0.21642692 -0.01762258]
+ [-0.88518986  1.15224684 -0.38380733 -0.72278083]
+ [-0.52321462 -0.68657405 -0.33967457  1.00446375]
+ [-0.01094782  0.29761959  0.69890406  0.93592819]
+ [ 0.04021906 -0.40803172  1.819349    0.13904505]
+ [ 0.0761951   0.36340217 -0.06471831  0.09873574]
+ [-1.2823501  -0.09668434 -0.45438459 -1.03307264]]
+
+[[ 1.17721306 -1.4270864 ]
+ [ 0.58445084 -1.08283665]
+ [-0.31434218 -2.10027969]
+ [-0.72468513  0.946062  ]]
+
+[[-1.27068621]
+ [-1.80578067]]
+
+ Training done, Testing time 
+
+ The error on test set is  0.9984963683792117
+
+ Learning rate = 0.1 
+
+
+ After 1000 iterations, the total error is 2.4616881369128962
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[-0.53804746  0.24916096  1.53357372  0.91532037]
+ [-1.43011464 -0.19836466  0.10504825  0.40543475]
+ [-2.87360045  2.82574619  0.04972752  1.64850041]
+ [-0.18683561 -0.13494333 -0.42591007 -1.92060619]
+ [ 1.44132553 -3.07062604  1.67419863 -2.04544603]
+ [ 1.28522097 -0.31461289 -0.30050474 -0.31780835]
+ [-0.14564502 -0.35809504 -0.18938235 -1.27479581]]
+
+[[-2.90871418  0.84908107]
+ [ 0.75909585 -1.96095548]
+ [-2.24361585  2.62004701]
+ [-2.51248511 -2.04303612]]
+
+[[-0.72609764]
+ [ 0.88195863]]
+
+ Training done, Testing time 
+
+ The error on test set is  0.5498741705247625
+
+ Learning rate = 0.5 
+
+
+ After 1000 iterations, the total error is 8.5
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[ 2.71135798  3.58955437 -2.58851389  4.31882438]
+ [ 0.44312458  0.39520536 -0.25919363 -1.22851271]
+ [ 0.02154748  0.35456718  0.78632211 -1.52006578]
+ [-0.12759038 -0.94118609 -0.66538927  0.25925717]
+ [ 2.95175605  2.67355142 -1.5670405   7.60402236]
+ [ 0.12348279  0.45606509  0.2820969   0.02769389]
+ [-0.09392801 -1.49627415  0.21609391  0.15052728]]
+
+[[ 22.10752636   4.93738414]
+ [ 23.38888068   0.48967084]
+ [-22.25102833  -0.75159652]
+ [ 21.49691866  -1.15667232]]
+
+[[ 1.53136855]
+ [19.0089978 ]]
+
+ Training done, Testing time 
+
+ The error on test set is  1.0
+
+ Neural network error using relu activation function 
+ 
+
+ Learning rate = 0.05 
+ 
+
+ After 1000 iterations, the total error is 27.5
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[-2.21942237 -0.83478614 -6.81937669 -2.06041625]
+ [ 0.25060939 -0.11452248 -0.11584017 -0.3670331 ]
+ [-0.72248385 -0.81807441  0.38635428  0.7524383 ]
+ [-0.57736397 -0.14243755  1.82681541 -0.6056699 ]
+ [-3.20445501 -0.92379265 -8.43079458 -2.03248725]
+ [ 0.68832747  0.3284753  -0.06817412 -0.79679293]
+ [-0.14050715 -0.02264498  1.14867225 -0.50130941]]
+
+[[-2.70912602 -1.11070282]
+ [-0.03089586 -0.53413577]
+ [-0.31510068 -3.690026  ]
+ [-5.85774576 -1.83989675]]
+
+[[-2.65023159]
+ [-2.11676359]]
+
+ Training done, Testing time 
+
+ The error on test set is  8.0
+
+ Learning rate = 0.01
+
+
+ After 1000 iterations, the total error is 27.5
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[-0.52033814  0.93062732 -1.27861995 -0.37216675]
+ [-0.89740208 -0.1172558   0.07502136 -0.2892427 ]
+ [ 0.15723497  0.98063845  0.14941191 -0.17880502]
+ [ 0.75561731  0.7103579  -0.15761808 -0.05087366]
+ [-0.96906154  1.17598275 -1.41168004  0.95174518]
+ [ 0.09735123  0.52374132 -0.8016572   0.21303303]
+ [-0.55341423  1.03332068  0.3899761   0.21313226]]
+
+[[ 0.89448945  0.09006315]
+ [-1.21539379  0.78466607]
+ [ 0.40498019 -0.81776949]
+ [-0.88612299 -0.82038131]]
+
+[[ 0.24728844]
+ [-0.75537196]]
+
+ Training done, Testing time 
+
+ The error on test set is  8.0
+
+ Learning rate = 0.1
+
+
+ After 1000 iterations, the total error is 27.5
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[ 6.09480772e-01  7.66998650e-01 -2.68956574e+02 -2.86255428e+01]
+ [-1.14778159e+00 -7.92090586e-01  2.91452797e+01 -7.72434358e+00]
+ [-2.05077204e+00 -2.05454192e+00  1.06844808e+01 -1.24573161e+00]
+ [-1.61179300e+00  7.04265575e-01  5.93645596e+01  1.39282998e+00]
+ [ 3.05173653e+00  9.14686468e-01 -2.80658645e+02 -3.49854105e+01]
+ [-1.97505229e-01  1.06418621e+00  1.28311815e+01  5.47159679e+00]
+ [ 4.39287498e+00 -1.38947082e+00  2.20615093e+01  4.34922780e+00]]
+
+[[  -0.14339928   -2.42583902]
+ [  -0.2101246    -5.64026002]
+ [  -0.23899342 -104.85288984]
+ [  -0.14323319  -47.35420203]]
+
+[[  0.3460329]
+ [-55.0953631]]
+
+ Training done, Testing time 
+
+ The error on test set is  8.0
+
+ Learning rate = 0.5
+
+
+ After 1000 iterations, the total error is 27.5
+
+ The final weight vectors are (starting from input to output layers)
+ 
+[[-0.79069455 -7.42543169 -5.13908093 -0.7036631 ]
+ [-0.84683789  6.47322819  2.58369756  0.47533397]
+ [-1.35846728 -3.88439849  1.56025468  0.04593051]
+ [ 0.76318858 -4.18711445 -3.61835899  0.77389394]
+ [ 0.02206448 -8.97352902 -5.32047147 -0.97289812]
+ [ 0.4171324   0.97371601  1.25823492 -0.05973102]
+ [-0.87954851  1.59323076  1.20925507  0.17955082]]
+
+[[ 1.6537092  -4.75838575]
+ [ 1.97259043 -3.76880826]
+ [ 1.19133346 -3.65747061]
+ [ 1.11466362  0.78580954]]
+
+[[-1.37670339]
+ [-2.5361426 ]]
+
+ Training done, Testing time 
+
+ The error on test set is  8.0
+
+PS: I have run the program only once and calculated the error rates for three activation functions and four learning rates which is summarised below;
+The results of the neural network after being trained for 1000 iterations is :
+
+Learning Rate	Activation Function 	Training error	Testing error
+0.01	Sigmoid	5.737	0.889
+	Tanh	1.773	0.998
+	Relu	27.5	8.0
+			
+0.05	Sigmoid	3.047	0.992
+	Tanh	1.923	1.45
+	Relu	27.5	8.0
+			
+0.1	Sigmoid	2.485	1.17
+	Tanh	2.462		0.55
+	Relu	27.5	8.0
+			
+0.5	Sigmoid	2.266	1.484
+	Tanh	8.5	1.0
+	Relu	27.5	8.0
+
+2.	Summary of Results:
+From the above table, we can conclude that Tan Hyberbolic activation function is better than Sigmoid and Relu for learning rates 0.01, 0.05 and 0.1. Sigmoid Activation Function is better for learning rate 0.5. Relu activation function gives very bad performance on the database used.
+We also conclude that as the training error increases, test error decreases only upto a particular threshold value of training error as shown by tanh. (As training error reaches 8.0 for tanh, its test error also increases). 
+From the table, we can conclude that optimum learning rate is 0.05 or 0.1 as he values of both training error and test error are within the limits we can bear in the model. Tanh also gives good performance with learning rate 0.01 .
+Thus, tanh with learning rate 0.01 and 0.1 is the best option for the database used.
